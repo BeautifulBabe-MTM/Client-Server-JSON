@@ -16,6 +16,7 @@ namespace Server
             try
             {
                 Console.WriteLine(server.GetMsg());
+
                 Console.ReadLine();
             }
             catch (Exception ex)
